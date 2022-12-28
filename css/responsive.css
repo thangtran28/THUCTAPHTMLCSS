@@ -1,0 +1,70 @@
+@media(max-width:739px){
+    .body{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        display: flex;
+        padding: 0;
+        align-items: center;
+        width: 100%;
+    }
+    .header .header-menu{
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .header .header-logo{
+        width: 60%;
+        margin-left: 15px;
+        align-items: center;
+    }
+    .header .header-logo img{
+        min-width: 120px;
+        height: 60px;
+        margin-left: 10px; 
+    }
+    .header .header-input input, 
+    .header .header-input p{
+        display: none;
+    }
+    .header .header-input button{
+        display: block;
+    }
+    .header-link{
+        display: none !important;
+    }
+    .header-list ul{  
+        display: none;
+        padding: 0px 0px;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: normal;
+    }
+    .main-content .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-content{
+        display: inline-block;
+    }
+    .cards{
+        /* grid-template-columns: repeat(2,1fr);
+        display: grid;
+        grid-gap: 20px;
+        width: 100%;
+        margin-left: 10px; */
+        
+    }
+    .footer-container{
+        padding: 0 0;
+        flex-direction: column;
+        margin: 0 -35px;
+    }
+    .footer-container-info{
+        padding: 0;
+        margin-left: -8px;
+    }
+}
